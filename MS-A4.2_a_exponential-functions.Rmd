@@ -1,0 +1,282 @@
+---
+title: "Exponential Functions"
+subtitle: "Standard 2"
+author: "MS-A4.2 Non-linear Relationships"
+institute: ""
+date: ""
+output_dir: "docs"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css:
+      - my-theme.css
+      - default
+      - metropolis
+      - metropolis-fonts
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:10"
+---
+# Learning Intentions
+
+#### Topic
+#### Non-linear Relationships
+
+#### Learning Goals
+Exponential Functions
+
+#### Success Criteria
+* use an exponential model to solve problems
+  * graph and recognise an exponential function in the form $y=a^x$ and $y=a^{-x}\ (a>0)$ with and without technology
+  * interpret the meaning of the intercepts of an exponential graph ~~in a variety of contexts~~
+  * construct and analyse an exponential model of the form $y=ka^x$ and $y=ka^{-x}\ (a>0)$ where $k$ is a constant, ~~to solve a practical growth or decay problem~~
+
+#### Activities/Tasks
+Refer to Edmodo
+
+---
+
+# Starter question
+
+Use your calculator to complete the following table of values of the equation $$y=2^x$$
+
+<!--html_preserve-->
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-ao2g{border-color:#333333;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tbody>
+  <tr>
+    <th class="tg-ao2g"> \(x\) </th>
+    <th class="tg-ao2g">\(\ -3\ \)</th>
+    <th class="tg-ao2g">\(\ -2\ \)</th>
+    <th class="tg-ao2g">\(\ -1\ \)</th>
+    <th class="tg-ao2g">\(\ 0\ \)</th>
+    <th class="tg-ao2g">\(\ 1\ \)</th>
+    <th class="tg-ao2g">\(\ 2\ \)</th>
+    <th class="tg-ao2g">\(\ 3\ \)</th>
+  </tr>
+</tbody>
+<tbody>
+  <tr>
+    <th class="tg-ao2g"> \(y\) </th>
+    <td class="tg-ao2g"></td>
+    <td class="tg-ao2g"></td>
+    <td class="tg-ao2g"></td>
+    <td class="tg-ao2g"></td>
+    <td class="tg-ao2g"></td>
+    <td class="tg-ao2g"></td>
+    <td class="tg-ao2g"></td>
+  </tr>
+</tbody>
+</table>
+<!--/html_preserve-->
+
+---
+
+# Exponential Functions
+
+--
+
+Exponential functions are functions that have the $x$ as the power of the constant. 
+
+--
+
+i.e. $$y=ka^x$$ Where $a$ and $k$ are constants
+
+--
+
+For example, $$y=3\times2^x$$
+
+--
+
+Note that the index operation happens before the mulitplication so $y=3\times2^x\neq6^x$
+
+---
+
+# $y=2^x$
+
+Embed here
+
+---
+
+# $y=a^x$
+
+Embed here
+
+---
+
+# Observations
+
+--
+
+* The graph is above the $x$-axis.
+
+--
+
+  * $y$ can never be 0 or negative.
+
+--
+
+* The graph always passes through the point (0, 1). $(a^0=1)$
+
+--
+
+* Increasing the value of $a$ increases the steepness of the curve.
+
+--
+
+* The $x$-axis is an _asymptote_.
+
+--
+
+  * The curve never touches the $x$-axis.
+
+---
+
+# $y=a^{-x}$
+
+Embed here
+
+---
+
+# $y=a^x$ and $y=a^{-x}$
+
+Embed here
+
+---
+
+# Observations
+
+* The graph is above the $x$-axis.
+  * $y$ can never be 0 or negative.
+* The graph always passes through the point (0, 1). $(a^0=1)$
+
+* Increasing the value of $a$ increases the steepness of the curve.
+
+* The $x$-axis is an _asymptote_.
+  * The curve never touches the $x$-axis.
+
+--
+
+* $a^x$ and $a^{-x}$ are reflections in the $y$-axis.
+
+--
+
+* $y=a^{-x}$ has the same graph as $y=\left(\dfrac{1}{a}\right)^x$
+
+---
+
+# $y=ka^x$
+
+---
+
+# Observations
+
+* The graph is above the $x$-axis.
+  * $y$ can never be 0 or negative.
+* The graph always passes through the point (0, 1). $(a^0=1)$
+
+* Increasing the value of $a$ increases the steepness of the curve.
+
+* The $x$-axis is an _asymptote_.
+  * The curve never touches the $x$-axis.
+
+* $a^x$ and $a^{-x}$ are reflections in the $y$-axis.
+
+* $y=a^{-x}$ has the same graph as $y=\left(\dfrac{1}{a}\right)^x$
+
+---
+
+# Observations 
+
+* The graph is above the $x$-axis.
+  * $y$ can never be 0 or negative, unless $k<0$.
+* The graph always passes through the point (0, 1). $(a^0=1)$
+
+* Increasing the value of $a$ increases the steepness of the curve.
+
+* The $x$-axis is an _asymptote_.
+  * The curve never touches the $x$-axis.
+
+* $a^x$ and $a^{-x}$ are reflections in the $y$-axis.
+
+* $y=a^{-x}$ has the same graph as $y=\left(\dfrac{1}{a}\right)^x$
+
+---
+
+# Observations
+
+* The graph is above the $x$-axis.
+  * $y$ can never be 0 or negative, unless $k<0$.
+* The graph always passes through the point (0, k). $(k\times a^0=k\times1=k)$
+
+* Increasing the value of $a$ increases the steepness of the curve.
+
+* The $x$-axis is an _asymptote_.
+  * The curve never touches the $x$-axis.
+
+* $a^x$ and $a^{-x}$ are reflections in the $y$-axis.
+
+* $y=a^{-x}$ has the same graph as $y=\left(\dfrac{1}{a}\right)^x$
+
+--
+
+* $k$ stretches the graph vertically.
+
+---
+
+# Sketching exponential graphs
+
+--
+
+1. Construct a table of values
+
+--
+
+2. Draw a number plane
+
+--
+
+3. Plot at least 4 points
+
+--
+
+4. Draw a curve that goes through the points
+
+---
+
+# Example 1
+
+Draw the graph oh $y=3^x$
+
+---
+
+# $y=3^x$
+
+Embed
+
+---
+
+# Example 2
+
+Draw the graph of $y=3^{-x}$
+
+---
+
+# $y=3^{-x}$
+
+Embed
+
+---
+
+# Check in question
+
+Using the table constructed in the starter question, draw the graph of $y=2^x$
