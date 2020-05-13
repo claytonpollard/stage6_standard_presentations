@@ -68,8 +68,8 @@ class: inverse, center, middle
 .pull-left[
 ### Exponential Growth
   * Quantity increases rapidly according to the functions
-      * $y=ka^x$ where $a>1$
-      * $y=ka^{-x}$ where $0<a<1$
+      * $y=a^x$ where $a>1$ and $k>0$
+      * $y=a^{-x}$ where $0<a<1$ and $k>0$
 ```{r, echo=FALSE, out.width = '300px'}
 library("ggplot2")
 eq = function(x){2^x}
@@ -81,8 +81,8 @@ ggplot(data.frame(x=c(-3, 3)), aes(x=x)) +
 .pull-right[
 ### Exponential Decay
   * Quantity decreases rapidly according to the functions
-      * $y=ka^{-x}$ where $a>1$
-      * $y=ka^{x}$ where $0<a<1$
+      * $y=a^{-x}$ where $a>1$ and $k>0$
+      * $y=a^{x}$ where $0<a<1$ and $k>0$
 ```{r, echo=FALSE, out.width = '300px'}
 library("ggplot2")
 eq = function(x){(1/2)^x}
@@ -103,7 +103,7 @@ Suppose the population is initially 50 ants, and the population triples every mo
 
 --
 
-We can use this relationship to answer questions about the mouse population. For example:
+We can use this relationship to answer questions about the ant population. For example:
 
 --
 
@@ -133,7 +133,7 @@ Embed
 
 # Example 1
 
-During a locust plague, the area of land eatern in $n$ weeks after the initial observation, is given by $A=6000\times1.3^n$ hectares.
+During a locust plague, the area of land eaten in $n$ weeks after the initial observation, is given by $A=6000\times1.3^n$ hectares.
 
 a) Find the size of the area initially eaten.
 
@@ -165,8 +165,8 @@ Examples of decay inlcude:
 --
 
 You can be given exponential decay functions as either 
-  * $y=a^{-x}$ where $a>1$ or
-  * $y=a^{x}$ where $0<a<1$
+      * $y=a^{-x}$ where $a>1$ and $k>0$, or
+      * $y=a^{x}$ where $0<a<1$ and $k>0$
 
 
 ---
