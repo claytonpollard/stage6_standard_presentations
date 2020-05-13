@@ -81,6 +81,49 @@ Use your calculator to complete the following table of values of the equation $$
 
 ---
 
+# Starter question
+
+Use your calculator to complete the following table of values of the equation $$y=2^x$$
+
+<!--html_preserve-->
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-ao2g{border-color:#333333;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<tbody>
+  <tr>
+    <th class="tg-ao2g"> \(x\) </th>
+    <th class="tg-ao2g">\(\ -3\ \)</th>
+    <th class="tg-ao2g">\(\ -2\ \)</th>
+    <th class="tg-ao2g">\(\ -1\ \)</th>
+    <th class="tg-ao2g">\(\ 0\ \)</th>
+    <th class="tg-ao2g">\(\ 1\ \)</th>
+    <th class="tg-ao2g">\(\ 2\ \)</th>
+    <th class="tg-ao2g">\(\ 3\ \)</th>
+  </tr>
+</tbody>
+<tbody>
+  <tr>
+    <th class="tg-ao2g"> \(y\) </th>
+    <td class="tg-ao2g">\(\ \dfrac{1}{8}\ \)</td>
+    <td class="tg-ao2g">\(\ \dfrac{1}{4}\ \)</td>
+    <td class="tg-ao2g">\(\ \dfrac{1}{2}\ \)</td>
+    <td class="tg-ao2g">\(\ 1\ \)</td>
+    <td class="tg-ao2g">\(\ 2\ \)</td>
+    <td class="tg-ao2g">\(\ 4\ \)</td>
+    <td class="tg-ao2g">\(\ 8\ \)</td>
+  </tr>
+</tbody>
+</table>
+<!--/html_preserve-->
+
+---
+
 # Exponential Functions
 
 --
@@ -133,6 +176,10 @@ Embed here
 
 --
 
+* Increasing the value of $x$ by 1 magnifies the value of $y$ by a factor of $a$
+
+--
+
 * The $x$-axis is an _asymptote_.
 
 --
@@ -161,6 +208,8 @@ Embed here
 
 * Increasing the value of $a$ increases the steepness of the curve.
 
+* Increasing the value of $x$ by 1 magnifies the value of $y$ by a factor of $a$
+
 * The $x$-axis is an _asymptote_.
   * The curve never touches the $x$-axis.
 
@@ -186,6 +235,8 @@ Embed here
 
 * Increasing the value of $a$ increases the steepness of the curve.
 
+* Increasing the value of $x$ by 1 magnifies the value of $y$ by a factor of $a$
+
 * The $x$-axis is an _asymptote_.
   * The curve never touches the $x$-axis.
 
@@ -203,6 +254,8 @@ Embed here
 
 * Increasing the value of $a$ increases the steepness of the curve.
 
+* Increasing the value of $x$ by 1 magnifies the value of $y$ by a factor of $a$
+
 * The $x$-axis is an _asymptote_.
   * The curve never touches the $x$-axis.
 
@@ -219,6 +272,8 @@ Embed here
 * The graph always passes through the point (0, k). $(k\times a^0=k\times1=k)$
 
 * Increasing the value of $a$ increases the steepness of the curve.
+
+* Increasing the value of $x$ by 1 magnifies the value of $y$ by a factor of $a$
 
 * The $x$-axis is an _asymptote_.
   * The curve never touches the $x$-axis.
