@@ -310,7 +310,7 @@ Embed here
 
 # Example 1
 
-Draw the graph oh $y=3^x$
+Draw the graph of $y=3^x$
 
 ---
 
