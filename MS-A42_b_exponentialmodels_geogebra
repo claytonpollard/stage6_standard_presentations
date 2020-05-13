@@ -47,7 +47,7 @@ var parameters_b = {
 "showToolBarHelp":true,
 "showResetIcon":false,
 "enableLabelDrags":true,
-"enableShiftDragZoom":true,
+"enableShiftDragZoom":false,
 "enableRightClick":false,
 "errorDialogsActive":false,
 "useBrowserForJS":false,
