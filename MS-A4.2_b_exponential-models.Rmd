@@ -1,0 +1,197 @@
+---
+title: "Exponential Models"
+subtitle: "Standard 2"
+author: "MS-A4.2 Non-linear Relationships"
+institute: ""
+date: "updated: `r Sys.Date()`"
+output_dir: "docs"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css:
+      - my-theme.css
+      - default
+      - metropolis
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:10"
+---
+# Learning Intentions
+
+#### Topic
+**Non-linear Relationships**
+
+#### Learning Goals
+Exponential Models
+
+#### Success Criteria
+* use an exponential model to solve problems
+  * graph and recognise an exponential function in the form $y=a^x$ and $y=a^{-x}\ (a>0)$ with and without technology
+  * interpret the meaning of the intercepts of an exponential graph in a variety of contexts
+  * construct and analyse an exponential model of the form $y=ka^x$ and $y=ka^{-x}\ (a>0)$ where $k$ is a constant, to solve a practical growth or decay problem
+
+#### Activities/Tasks
+Refer to Edmodo
+
+---
+
+# Starter question
+
+Draw the graph of $y=2\times2^{x}$
+
+---
+
+# Last lesson
+
+
+Exponential functions are functions that have the $x$ as the power of the constant. 
+
+i.e. $$y=ka^x$$ Where $a$ and $k$ are constants
+
+---
+class: inverse, center, middle
+
+# Exponential Models
+
+---
+
+# Exponential Models
+
+.pull-left[
+### Exponential Growth
+  * Quantity increases rapidly according to the functions
+      * $y=a^x$ where $a>1$
+      * $y=a^{-x}$ where $0<a<1$
+```{r, echo=FALSE, out.width = '300px'}
+library("ggplot2")
+eq = function(x){2^x}
+ggplot(data.frame(x=c(-3, 3)), aes(x=x)) + 
+  stat_function(fun=eq)
+```
+]
+
+.pull-right[
+### Exponential Decay
+  * Quantity decreases rapidly according to the functions
+      * $y=a^{-x}$ where $a>1$
+      * $y=a^{x}$ where $0<a<1$
+```{r, echo=FALSE, out.width = '300px'}
+library("ggplot2")
+eq = function(x){(1/2)^x}
+ggplot(data.frame(x=c(-3, 3)), aes(x=x)) + 
+  stat_function(fun=eq)
+```
+]
+
+---
+
+# Exponential Growth
+
+Under favourable conditions, a population of ants will grow exponentially.
+
+--
+
+Suppose the population is initially 50 ants, and the population triples every month. The population after $n$ months can be described by the exponential function $$P=50\times2^3$$
+
+--
+
+We can use this relationship to answer questions about the mouse population. For example:
+
+--
+
+* To find the population after 2 months, we substitute $n=2$ and find
+
+  * $P=50\times3^2$
+  * $P=450$
+
+--
+
+* To find the population after 5.5 months, we substitute $n=5.5$ and find 
+
+  * $P=50\times3^{5.5}$
+  * $P\approx21044$
+
+--
+
+Clearly, the population cannot continue to grow exponentially in the long term because eventually the ants will run out of food. Nevertheless, an exponential function can be valuable for modelling the population in the short term.
+
+---
+
+# Exponetial Growth
+
+Embed
+
+---
+
+# Example 1
+
+During a locust plague, the area of land eatern in $n$ weeks after the initial observation, is given by $A=6000\times1.3^n$ hectares.
+
+a) Find the size of the area initially eaten.
+
+b) Find the size of the area eaten after 2 weeks, 4 weeks and 6 weeks.
+
+c) Use (a) and (b) to sketch the graph of $A$ against $n$.
+
+d) Estimate the area eaten after 3 weeks.
+
+---
+
+# Exponential Decay
+
+When the value of a variable decreases exponentially over time, we call it _decay_.
+
+--
+
+Examples of decay inlcude:
+
+* cooling of a cup of tea
+* radioactive decay
+
+--
+
+You can be given exponential decay functions as either 
+  * $y=a^{-x}$ where $a>1$ or
+  * $y=a^{x}$ where $0<a<1$
+
+---
+
+# Exponential Decay
+
+Embed
+
+---
+
+# Example 2
+
+Boiling water is left in a pot to cool. After $n$ minutes, its temperature is given by $T=100\times0.84^n\ ^\text{o}\text{C}$
+
+a) Find the initial temperature of the water.
+
+b) Find the water temperature after 2 minutes, 5 minutes and 10 minutes.
+
+c) Graph $T$ against $n$ using (a) and (b).
+
+d) Estimate the temperature of the water after 8 minutes.
+
+---
+
+# $T=100\times0.84^n$
+
+Embed
+
+---
+
+# Check in question
+
+In Tasmania, a reserve is set aside for the breeding of echidnas. The expected population after $n$ years is given by $P=50\times1.29^n$.
+
+a) What is the initial breeding colony size?
+
+b) Find the expected colony size after 3 years, 9 years and 15 years.
+
+c) Graph $P$ against $n$ using (a) and (b)
+
+d) Esimtate the population after 12 years.
