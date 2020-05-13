@@ -3,7 +3,7 @@ title: "Exponential Functions"
 subtitle: "Standard 2"
 author: "MS-A4.2 Non-linear Relationships"
 institute: ""
-date: ""
+date: "updated: `r Sys.Date()`"
 output_dir: "docs"
 output:
   xaringan::moon_reader:
@@ -12,7 +12,7 @@ output:
       - my-theme.css
       - default
       - metropolis
-      - metropolis-fonts
+      - default-fonts
     nature:
       highlightStyle: github
       highlightLines: true
