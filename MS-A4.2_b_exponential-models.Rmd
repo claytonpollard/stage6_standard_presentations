@@ -68,8 +68,8 @@ class: inverse, center, middle
 .pull-left[
 ### Exponential Growth
   * Quantity increases rapidly according to the functions
-      * $y=a^x$ where $a>1$
-      * $y=a^{-x}$ where $0<a<1$
+      * $y=ka^x$ where $a>1$
+      * $y=ka^{-x}$ where $0<a<1$
 ```{r, echo=FALSE, out.width = '300px'}
 library("ggplot2")
 eq = function(x){2^x}
@@ -81,8 +81,8 @@ ggplot(data.frame(x=c(-3, 3)), aes(x=x)) +
 .pull-right[
 ### Exponential Decay
   * Quantity decreases rapidly according to the functions
-      * $y=a^{-x}$ where $a>1$
-      * $y=a^{x}$ where $0<a<1$
+      * $y=ka^{-x}$ where $a>1$
+      * $y=ka^{x}$ where $0<a<1$
 ```{r, echo=FALSE, out.width = '300px'}
 library("ggplot2")
 eq = function(x){(1/2)^x}
