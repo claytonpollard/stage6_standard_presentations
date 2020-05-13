@@ -12,7 +12,6 @@ output:
       - my-theme.css
       - default
       - metropolis
-      - default-fonts
     nature:
       highlightStyle: github
       highlightLines: true
@@ -22,7 +21,7 @@ output:
 # Learning Intentions
 
 #### Topic
-#### Non-linear Relationships
+**Non-linear Relationships**
 
 #### Learning Goals
 Exponential Functions
