@@ -43,6 +43,12 @@ Draw the graph of $y=2\times2^{x}$
 
 ---
 
+# Starter question
+
+Embed
+
+---
+
 # Last lesson
 
 
@@ -93,7 +99,7 @@ Under favourable conditions, a population of ants will grow exponentially.
 
 --
 
-Suppose the population is initially 50 ants, and the population triples every month. The population after $n$ months can be described by the exponential function $$P=50\times2^3$$
+Suppose the population is initially 50 ants, and the population triples every month. The population after $n$ months can be described by the exponential function $$P=50\times3^n$$
 
 --
 
@@ -139,6 +145,12 @@ d) Estimate the area eaten after 3 weeks.
 
 ---
 
+# $A=6000\times1.3^n$
+
+Embed
+
+---
+
 # Exponential Decay
 
 When the value of a variable decreases exponentially over time, we call it _decay_.
@@ -156,11 +168,6 @@ You can be given exponential decay functions as either
   * $y=a^{-x}$ where $a>1$ or
   * $y=a^{x}$ where $0<a<1$
 
----
-
-# Exponential Decay
-
-Embed
 
 ---
 
