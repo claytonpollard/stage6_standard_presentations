@@ -28,6 +28,9 @@ Quadratic Functions
 
 #### Success Criteria
 
+* Construct and analyse a quadratic model to solve practical problems involving quadratic functions or expressions of the form $y=ax^2+bx+c$, for example braking distance against speed
+  * recognise the shape of a parabola and that it always has a turning point and an axis of symmetry
+  * graph a quadratic function with and without technology
 
 #### Activities/Tasks
 Refer to Edmodo
@@ -36,7 +39,15 @@ Refer to Edmodo
 
 # Starter question
 
+There are currently 1000 possums in a national park. The population is expected to fall by 7% each year.
 
+a) Write an exponential function for the expected possum population $P$ after $n$ years.
+
+b) Find the expected population after 1 year, 5 years and 10 years.
+
+c) Sketch the graph of $P$ against $n$
+
+d) Use your graph to estimate the population after 3 years.
 
 ---
 
@@ -58,12 +69,6 @@ For example, $$y=3x^2-4$$
 ---
 
 # $y=x^2$
-
-Embed here
-
----
-
-# $y=ax^2$
 
 Embed here
 
@@ -169,6 +174,10 @@ There can be 0, 1 or 2 $x$-intercepts, and there is 1 $y$-intercept.
 
 ---
 
+# $y=ax^2+bx+c$
+
+---
+
 # Sketching quadratic graphs
 
 --
@@ -217,7 +226,7 @@ e) minimum or maximum value
 
 ---
 
-# $y=3^{-x}$
+# $y=x^2-4x+3$
 
 Embed
 
