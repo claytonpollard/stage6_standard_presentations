@@ -120,9 +120,9 @@ Embed here
 
 * There is a vertex (or turning point) at $(0,0)$
 
-* The graph is symmetrical on each side of the turning point.
-
   * This is the maximum or minimum value
+
+* The graph is symmetrical on each side of the turning point.
 
 --
 
