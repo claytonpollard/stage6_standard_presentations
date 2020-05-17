@@ -1,0 +1,238 @@
+---
+title: "Quadratic Functions"
+subtitle: "Standard 2"
+author: "MS-A4.2 Non-linear Relationships"
+institute: ""
+date: "updated: `r Sys.Date()`"
+output_dir: "docs"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css:
+      - my-theme.css
+      - default
+      - metropolis
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:10"
+---
+# Learning Intentions
+
+#### Topic
+**Non-linear Relationships**
+
+#### Learning Goals
+Quadratic Functions
+
+#### Success Criteria
+
+
+#### Activities/Tasks
+Refer to Edmodo
+
+---
+
+# Starter question
+
+
+
+---
+
+
+# Quadratic Functions
+
+--
+
+Quadratic functions are functions where the highest power on an $x$ term is 2. 
+
+--
+
+i.e. $$y=ax^2+bx+c$$ Where $a$, $b$ and $c$ are constants
+
+--
+
+For example, $$y=3x^2-4$$
+
+---
+
+# $y=x^2$
+
+Embed here
+
+---
+
+# $y=ax^2$
+
+Embed here
+
+---
+
+# Observations
+
+--
+
+* There is a vertex (or turning point) at $(0,0)$
+
+--
+
+  * This is the minimum value
+
+--
+
+* The graph is symmetrical on each side of the turning point.
+
+---
+
+# $y=ax^2$
+
+Embed here
+
+---
+
+# Observations
+
+* There is a vertex (or turning point) at $(0,0)$
+
+  * This is the minimum value
+
+* The graph is symmetrical on each side of the turning point.
+
+---
+
+# Observations
+
+* There is a vertex (or turning point) at $(0,0)$
+
+  * This is the maximum or minimum value
+
+* The graph is symmetrical on each side of the turning point.
+
+---
+
+# Observations
+
+* There is a vertex (or turning point) at $(0,0)$
+
+* The graph is symmetrical on each side of the turning point.
+
+  * This is the maximum or minimum value
+
+--
+
+* $a$ changes how quickly the graph increases and decreases
+
+--
+
+* When $a$ is positive it makes a 🙂
+
+--
+
+* When $a$ is negative it makes a 🙁  
+
+--
+
+* $y=ax^2$ and $y=-ax^2$ are reflections in the $x$ axis
+
+---
+
+# $y=ax^2+c$
+
+Embed here
+
+---
+
+# Observations
+
+* There is a vertex (or turning point) at $(0,0)$
+
+  * This is the maximum or minimum value
+
+* The graph is symmetrical on each side of the turning point
+
+* $a$ changes how quickly the graph increases and decreases
+
+* When $a$ is positive it makes a 🙂
+
+* When $a$ is negative it makes a 🙁  
+
+* $y=ax^2$ and $y=-ax^2$ are reflections in the $x$ axis
+
+--
+
+* Adding or subtracting a number does _not_ change the shape. It moves it up or down.
+
+--
+
+There can be 0, 1 or 2 $x$-intercepts, and there is 1 $y$-intercept.
+
+---
+
+# Sketching quadratic graphs
+
+--
+
+1. Construct a table of values
+
+--
+
+2. Draw a number plane
+
+--
+
+3. Plot at least 4 points
+
+--
+
+4. Draw a curve that goes through the points
+
+---
+
+# Example 1
+
+Draw the graph of $y=x^2+1$
+
+---
+
+# $y=x^2+1$
+
+Embed
+
+---
+
+# Example 2
+
+Draw the graph of $y=x^2-4x+3$. Use the graph the find:
+
+a) turning point
+
+b) axis of symmetry
+
+c) $y$-intercept
+
+d) $x$-intercepts
+
+e) minimum or maximum value
+
+---
+
+# $y=3^{-x}$
+
+Embed
+
+---
+
+# Check in question
+
+Draw the graph of $y=x^2-4x+3$ Use the graph the find:
+
+a) turning point
+
+b) axis of symmetry
+
+c) $y$-intercept
+
+d) $x$-intercepts
+
+e) minimum or maximum value
