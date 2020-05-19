@@ -73,9 +73,9 @@ Because questions relating to gravity will have a square, quadratic functions ar
 
 # Example 1
 
-A rock is thrown from a cliff. The height $h$ of the rock after time $t$ is given by $h=-\dfrac{1}{2}x+2x+6$.
+A rock is thrown from a cliff. The height $h$ of the rock after time $t$ is given by $h=-\dfrac{1}{2}t^2+2t+6$.
 
-a) Draw the graph of $h=-\dfrac{1}{2}x+2x+6$.
+a) Draw the graph of $h=-\dfrac{1}{2}t^2+2t+6$.
 
 b) Use the graph to work out how high the cliff is.
 
@@ -111,7 +111,7 @@ Note that
 
 * $\dfrac{5vt}{18}$ is the reaction distance
 
-* $\dfrac{v^2}{10}$ is the braking distance 
+* $\dfrac{v^2}{170}$ is the braking distance 
 
 ---
 
