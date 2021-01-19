@@ -1,0 +1,122 @@
+\documentclass[aspectratio=1610,10pt]{beamer}
+
+\input{./include/structure.tex}
+\input{./include/environments.tex}
+
+\title{Substitution}
+\subtitle{Standard}
+\author{MS-A1 Formulae and Equations}
+\usepackage[style=iso]{datetime2}
+\date{updated: \today
+}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+  \begin{outcome}
+    \textbf{Topic:}
+    \begin{itemize}
+      \item[] Substitution
+    \end{itemize}
+
+    \textbf{Syllabus:}
+    \begin{itemize}
+      \item review substitution of numerical values into linear and non-linear algebraic expressions and equations
+    \end{itemize}
+
+    \textbf{Activities/Tasks:}
+    \begin{itemize}
+      \item Cambridge Ex 3A Q1-17
+    \end{itemize}
+  \end{outcome}
+\end{frame}
+
+\begin{frame}{Why algebra?}
+  \pause
+  \textbf{Algebra} is used Mathematicians to communicate mathematical ideas in a convenient way. \textbf{Variables} (letters and symbols) are used to represent unknown quantities whose value can change depending on the situation.
+\end{frame}
+
+\begin{frame}{Expressions}
+  We can think of expressions as number crunching machines. Numbers are  put in and then a related number is produced.\pause
+
+  For example the expression $\ a^2+1\ $ starts with an input $a$, squares it and adds 1.\pause
+
+  If the number -5 is fed into the machine, the machine \textbf{substitutes} the number 5 in place of $a$ and then \textbf{evaluates} the result:\pause
+
+  \[
+    \begin{aligned}
+         &a^2+1\\\pause
+      =\ &(\textcolor{col4}{-5})^2+1\\\pause
+      =\ &25+1\\\pause
+      =\ &26
+    \end{aligned}
+    \]
+\end{frame}
+
+\begin{frame}{Substituting}
+  \begin{important}
+    To avoid making mistakes it is good practice to \textbf{always} substitue into brackets.
+  \end{important}
+\end{frame}
+
+\begin{frame}
+  \begin{example}
+    Evaluate the following, given $x=4$
+    \begin{tasks}(2)
+      \task $2x-3$
+      \task $\sqrt{6x+12}$
+    \end{tasks}
+  \end{example}\pause
+  \begin{solution}[]
+    \vspace{-1em}
+    \begin{columns}[t]
+      \begin{column}{.4\textwidth}
+    a) $ $\vspace{-1em}\[
+      \begin{aligned}
+         &2x-3\\\pause
+      =\ &2(\textcolor{col4}{4})-3\\\pause
+      =\ &8-3\\\pause
+      =\ &5\pause
+      \end{aligned}
+      \]
+    \end{column}
+    \begin{column}{.4\textwidth}
+    b) $ $\vspace{-1em}\[
+      \begin{aligned}
+         &\sqrt{6x+12}\\\pause
+      =\ &\sqrt{6(\textcolor{col4}{4})+12}\\\pause
+      =\ &\sqrt{24+12}\\\pause
+      =\ &\sqrt{36}\\\pause
+      =\ &6\\
+      \end{aligned}
+      \]
+    \end{column}
+  \end{columns}
+  \end{solution}
+\end{frame}
+
+\begin{frame}
+  \begin{example}
+    Evaluate $\quad a^2-5b+c\quad$ given $a=3$, $b=-3$, $c=7$
+  \end{example}\pause
+  \begin{solution}[]
+    \[
+      \begin{aligned}
+         &a^2-5b+c\\\pause
+      =\ &(\textcolor{col4}{3})^2-5(\textcolor{col4}{-3})+(\textcolor{col4}{7})\\\pause
+      =\ &9+15+7\\\pause
+      =\ &31
+      \end{aligned}
+      \]
+  \end{solution}
+\end{frame}
+
+\begin{frame}{Today's work}
+  \begin{itemize} 
+    \item Cambridge Ex 3A Q1-17
+  \end{itemize}
+\end{frame}
+
+\end{document}
