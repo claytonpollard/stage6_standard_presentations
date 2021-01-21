@@ -1,0 +1,338 @@
+\documentclass[aspectratio=169,10pt]{beamer}
+
+\input{./include/structure.tex}
+\input{./include/environments.tex}
+
+\title{Solving Equations}
+\subtitle{Standard}
+\author{MS-A1 Formulae and Equations}
+\usepackage[style=iso]{datetime2}
+\date{updated: \today
+}
+
+\begin{document}
+
+\begin{frame}{Revision}
+  If $a=4$, $b=-1$, and $c=-3$, evaluate:
+  \begin{tasks}(4)
+  \task $3a$
+  \task $2a-3b$
+  \task $2ac$
+  \task $ac-3c$
+  \task $\dfrac{a}{2b}$
+  \task $\dfrac{2ac}{b-c}$
+  \task $(2c)^2$
+  \task $2c^2$
+  \end{tasks}\vspace{7pt}\pause
+  \begin{solution}[]
+    \begin{tasks}(4)
+    \task \pause$12$
+    \task \pause$11$
+    \task \pause$-24$
+    \task \pause$-3$
+    \task \pause$-2$
+    \task \pause$-12$
+    \task \pause$36$
+    \task \pause$18$
+    \end{tasks}
+    \end{solution}
+\end{frame}
+
+\frame{\titlepage}
+
+\begin{frame}
+  \begin{outcome}
+    \textbf{Topic:}
+    \begin{itemize}
+      \item[] Solving Equations
+    \end{itemize}
+
+    \textbf{Syllabus:}
+    \begin{itemize}
+      \item develop and solve linear equations, including those derived from substituting values into a formula, or those developed from a word description
+    \end{itemize}
+
+    \textbf{Activities/Tasks:}
+    \begin{itemize}
+      \item Cambridge Ex 3C Q1-22
+    \end{itemize}
+  \end{outcome}
+\end{frame}
+
+\begin{frame}{Equations}
+  \begin{definition}[Equation]
+    A statement asserting that two \textit{expressions} are equal.
+  \end{definition}\pause
+  \begin{center}
+    $\underset{\onslide<3->{\overset{\uparrow}{\text{expression 1}}}}{3n-3}\overset{\onslide<5->{\underset{\downarrow}{\text{is equal to}}}}{=}\underset{\onslide<4->{\overset{\uparrow}{\text{expression 2}}}}{n+1}\quad$ is an equation.
+  \end{center}
+\end{frame}
+
+\begin{frame}{Solving equations}
+  \begin{definition}[]
+    To \textbf{solve} an equation means to find the value of the unknown.
+  \end{definition}\pause
+  In order to solve an equation we need to rearrange the equation to \textbf{isolate} the unknown.\pause We do this by unpacking the equation using \textbf{inverse operations}.\pause The inverse operations are performed on \textit{both sides} of the equation to \textbf{maintain the balance.}\pause
+
+  Once you have found a solution, you can check it is correct by \textbf{substituting} back into the original equation.
+\end{frame}
+
+\begin{frame}
+  \begin{example}
+    Solve for $x$:
+    \begin{tasks}(4)
+      \task $2x-3=5$
+      \task $8-4x=-2$
+      \task $\dfrac{x}{4}+7=5$
+      \task $\dfrac{1}{3}(x+2)=6$
+    \end{tasks}
+  \end{example}\pause
+  \begin{solution}[]
+    \vspace{-1em}
+    \begin{columns}[t]
+      \begin{column}{.4\textwidth}
+    a) $ $\vspace{-1em}\[
+      \begin{aligned}
+         2x-3&=5\\\pause
+         2x-3\textcolor{col4}{\,+\,3}&=5\textcolor{col4}{\,+\,3}\\\pause
+         2x&=8\\\pause
+         2x\textcolor{col4}{\,\div\,2}&=8\textcolor{col4}{\,\div\,2}\\\pause
+         x&=4\pause
+      \end{aligned}
+      \]
+    \end{column}
+    \begin{column}{.4\textwidth}
+    b) $ $\vspace{-2em}\[
+      \begin{aligned}
+         8-4x&=-2\\\pause
+         8-4x\textcolor{col4}{\,+\,4x\onslide<9->{+2}}&=-2\textcolor{col4}{\,+\,4x\onslide<9->{+2}}\\\pause\pause
+         10&=4x\\\pause
+         10\textcolor{col4}{\,\div\,4}&=4x\textcolor{col4}{\,\div\,4}\\\pause
+         \frac{10}{4}&=x\\\pause\pause
+         x&=\frac{10}{4}=\frac{5}{2}=2.5
+      \end{aligned}
+      \]
+    \end{column}
+  \end{columns}
+  \end{solution}
+  \vspace{-7pt}
+  \onslide<12->{
+  \begin{note}
+  It is best practice to have the unknown on the left hand side (LHS) in your answer.
+  \end{note}
+  }
+\end{frame}
+
+\addtocounter{example}{-1}
+\begin{frame}
+  \begin{example}
+    Solve for $x$:
+    \begin{tasks}(4)
+      \task $2x-3=5$
+      \task $8-4x=-2$
+      \task $\dfrac{x}{4}+7=5$
+      \task $\dfrac{1}{3}(x+2)=6$
+    \end{tasks}
+  \end{example}
+  \begin{solution}[]
+    \vspace{-1em}
+    \begin{columns}[t]
+    \begin{column}{.4\textwidth}
+    b) $ $\vspace{-2em}\[
+      \begin{aligned}
+         8-4x&=-2\\
+         8-4x\textcolor{col4}{\,+\,4x\,+\,2}&=-2\textcolor{col4}{\,+\,4x\,+\,2}\\
+         10&=4x\\
+         10\textcolor{col4}{\,\div\,4}&=4x\textcolor{col4}{\,\div\,4}\\
+         \frac{10}{4}&=x\\
+         x&=\frac{10}{4}=\frac{5}{2}=2.5
+      \end{aligned}
+      \]
+    \end{column}
+      \begin{column}{.4\textwidth}
+    c) $ $\vspace{-1em}\[
+      \begin{aligned}
+         \frac{x}{4}+7&=5\\\pause
+         \frac{x}{4}+7\textcolor{col4}{\,-\,7}&=5\textcolor{col4}{\,-\,7}\\\pause
+         \frac{x}{4}&=-2\\\pause
+         \frac{x}{4}\textcolor{col4}{\,\times\,4}&=-2\textcolor{col4}{\,\times\,4}\\\pause
+         x&=-8
+      \end{aligned}
+      \]
+    \end{column}
+  \end{columns}
+  \end{solution}
+  \vspace{-7pt}
+    \begin{note}
+  It is best practice to have the unknown on the left hand side (LHS) in your answer.
+  \end{note}
+\end{frame}
+
+\addtocounter{example}{-1}
+\begin{frame}
+  \begin{example}
+    Solve for $x$:
+    \begin{tasks}(4)
+      \task $2x-3=5$
+      \task $8-4x=-2$
+      \task $\dfrac{x}{4}+7=5$
+      \task $\dfrac{1}{3}(x+2)=6$
+    \end{tasks}
+  \end{example}
+  \begin{solution}[]
+    \vspace{-1em}
+    \begin{columns}[t]
+      \begin{column}{.4\textwidth}
+    c) $ $\vspace{-1em}\[
+      \begin{aligned}
+         \frac{x}{4}+7&=5\\
+         \frac{x}{4}+7\textcolor{col4}{\,-\,7}&=5\textcolor{col4}{\,-\,7}\\
+         \frac{x}{4}&=-2\\
+         \frac{x}{4}\textcolor{col4}{\,\times\,4}&=-2\textcolor{col4}{\,\times\,4}\\
+         x&=-8
+      \end{aligned}
+      \]
+    \end{column}
+      \begin{column}{.4\textwidth}
+    d) $ $\vspace{-2em}\[
+      \begin{aligned}
+         \frac{1}{3}(x+2)&=6\\\pause
+         \frac{1}{3}(x+2)\textcolor{col4}{\,\times\,3}&=6\textcolor{col4}{\,\times\,3}\\\pause
+         x+2&=18\\\pause
+         x+2\textcolor{col4}{\,-\,2}&=18\textcolor{col4}{\,-\,2}\\\pause
+         x&=16
+      \end{aligned}
+      \]
+    \end{column}
+  \end{columns}
+  \end{solution}
+\end{frame}
+
+\begin{frame}{Repeated unknowns}\pause
+If the unknown appears in the equation more than once, we follow these steps:\pause
+\begin{enumerate}
+	\item Expand brackets and collect like terms.\pause
+	\item If the unknown appears on both sides of the equation, remove it from one side using inverse operations.\pause
+	\item Isolate the unknown and solve the equation.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \begin{example}
+    Solve $\quad4(2x+5)-3(x-2)=16\quad$ for $x$.
+  \end{example}\pause
+  \begin{solution}[]
+    \[
+      \begin{aligned}
+         4(2x+5)-3(x-2)&=16\\\pause
+         8x+20-3x+6&=16\\\pause
+         5x+26&=16\\\pause
+         5x+26\textcolor{col4}{\,-\,26}&=16\textcolor{col4}{\,-\,26}\\\pause
+         5x&=-10\\\pause
+         5x\textcolor{col4}{\,\div\,5}&=-10\textcolor{col4}{\,\div\,5}\\\pause
+         x&=-2
+      \end{aligned}
+      \]
+  \end{solution}
+\end{frame}
+
+\begin{frame}
+  \begin{example}
+    Solve for $x$:
+    \begin{tasks}(2)
+      \task $4x-3=3x+7$
+      \task $5-3(-1+x)=x$
+    \end{tasks}
+  \end{example}\pause
+  \begin{solution}[]
+    \vspace{-1em}
+    \begin{columns}[t]
+      \begin{column}{.4\textwidth}
+    a) $ $\vspace{-2em}\[
+      \begin{aligned}
+        4x-3&=3x+7\\\pause
+        4x\textcolor{col4}{\,-\,3x}-3\textcolor{col4}{\,+\,3}&=3x\textcolor{col4}{\,-\,3x}+7\textcolor{col4}{\,+\,3}\\\pause
+        x&=10\pause
+      \end{aligned}
+      \]
+    \end{column}
+      \begin{column}{.4\textwidth}
+    b) $ $\vspace{-2em}\[
+      \begin{aligned}
+        5-3(-1+x)&=x\\\pause
+        5+3-3x&=x\\\pause
+        8-3x\textcolor{col4}{\,+\,3x}&=x\textcolor{col4}{\,+\,3x}\\\pause
+        8&=4x\\\pause
+        8\textcolor{col4}{\,\div\,4}&=4x\textcolor{col4}{\,\div\,4}\\\pause
+        2&=x\\\pause
+        x&=2
+      \end{aligned}
+      \]
+    \end{column}
+  \end{columns}
+  \end{solution}
+\end{frame}
+
+\begin{frame}{Fractions}
+  For equations involving fractions, first write all fractions with a \textbf{common denominator}.\pause
+  
+  For example:
+    \begin{itemize}
+      \item In $\dfrac{2x}{3}=\dfrac{x}{4}$ the lowest common denominator is \pause $\ \ 12$.
+      \item In $\dfrac{3}{x}=\dfrac{5}{2x-1}$ the lowest common denominator is \pause $\ \ x(2x-1)$.
+    \end{itemize}
+  Once the fractions have common denominators you can \textbf{equate the numerators}
+\end{frame}
+
+\begin{frame}
+\small
+  \begin{example}
+    Solve $\quad\dfrac{2-x}{3}=\dfrac{x}{5}\quad$ for $x$.
+  \end{example}
+  \begin{solution}[]\vspace{-2em}
+    \[
+      \begin{aligned}
+         \frac{2-x}{3}&=\frac{x}{5}\\\pause
+         \frac{2-x}{3}\textcolor{col4}{\,\times\,\frac{5}{5}}&=\frac{x}{5}\textcolor{col4}{\,\times\,\frac{3}{3}}\\\pause
+         \frac{5(2-x)}{15}&=\frac{3x}{15}\\\pause
+         5(2-x)&=3x&\text{(equating the numerators)}\\\pause
+         10-5x&=3x\\\pause
+         10-5x\textcolor{col4}{\,+\,5x}&=3x\textcolor{col4}{\,+\,5x}\\\pause
+         10&=8x\\\pause
+         10\textcolor{col4}{\,\div\,8}&=8x\textcolor{col4}{\,\div\,8}\\\pause
+         \frac{10}{8}&=x\\\pause
+         x&=\frac{10}{8}=\frac{5}{4}=1.25
+      \end{aligned}
+      \]
+  \end{solution}
+\end{frame}
+
+\begin{frame}
+\small
+  \begin{example}
+    Solve $\quad\dfrac{7}{x+1}=\dfrac{3}{x}\quad$ for $x$.
+  \end{example}
+  \begin{solution}[]\vspace{-2em}
+    \[
+      \begin{aligned}
+         \frac{7}{x+1}&=\frac{3}{x}\\\pause
+         \frac{7}{x+1}\textcolor{col4}{\,\times\,\frac{x}{x}}&=\frac{3}{x}\textcolor{col4}{\,\times\,\frac{x+1}{x+1}}\\\pause
+         \frac{7x}{x(x+1)}&=\frac{3(x+1)}{x(x+1)}\\\pause
+         7x&=3(x+1)&\text{(equating the numerators)}\\\pause
+         7x&=3x+3\\\pause
+         7x\textcolor{col4}{\,-\,3x}&=3x\textcolor{col4}{\,-\,3x}+3\\\pause
+         4x&=3\\\pause
+         4x\textcolor{col4}{\,\div\,4}&=3\textcolor{col4}{\,\div\,4}\\\pause
+         x&=\frac{3}{4}=0.75\\
+      \end{aligned}
+      \]
+  \end{solution}
+\end{frame}
+
+\begin{frame}{Today's work}
+  \begin{itemize} 
+    \item Cambridge Ex 3C Q1-22
+  \end{itemize}
+\end{frame}
+
+\end{document}
