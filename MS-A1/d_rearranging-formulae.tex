@@ -1,0 +1,172 @@
+\documentclass[aspectratio=169,10pt]{beamer}
+
+\input{./include/structure.tex}
+\input{./include/environments.tex}
+
+\title{Rearranging Formulae}
+\subtitle{Standard}
+\author{MS-A1 Formulae and Equations}
+\usepackage[style=iso]{datetime2}
+\date{updated: \today
+}
+
+\begin{document}
+
+\begin{frame}{Revision}
+The volume for a cylinder is given by the formula $\ \ V=\pi r^2h\ \ $ where $r$ is the radius, and $h$ is the height. Find the following to three significant figures.
+\begin{tasks}(1)
+\task the volume of a cylindrical tin can of radius $10$ cm and height $15$ cm
+\task the height of a cylinder of radius $4$ cm if its volume is $60$ cm$^3$
+\task the radius, in cm, of cable with volume $50$ cm$^3$ and length $45$ cm.
+\end{tasks}\vspace{7pt}\pause
+  \begin{solution}[]
+    \begin{tasks}(3)
+    \task \pause$4710$ cm$^3$
+    \task \pause$1.19$ cm
+    \task \pause$0.595$ cm
+    \end{tasks}
+    \end{solution}
+\end{frame}
+
+\frame{\titlepage}
+
+\begin{frame}
+  \begin{outcome}
+    \textbf{Topic:}
+    \begin{itemize}
+      \item[] Rearranging Formulae
+    \end{itemize}
+
+    \textbf{Syllabus:}
+    \begin{itemize}
+      \item change the subject of a formula
+    \end{itemize}
+
+    \textbf{Activities/Tasks:}
+    \begin{itemize}
+      \item Cambridge Ex 3E Q1-21
+    \end{itemize}
+  \end{outcome}
+\end{frame}
+
+\begin{frame}{Formula Rearrangement}
+  By performing operations to both sides of a formula, they can be \textbf{rearranged} to make \textbf{equivalent} formulae where other variables are the subjects.\pause
+
+  For example
+  \begin{columns}[t]
+    \begin{column}{.4\textwidth}
+      \[
+      \begin{aligned}
+        V&=\pi r^2h\\\pause
+        V\textcolor{col4}{\,\div\,\pi r^2}&=\pi r^2h\textcolor{col4}{\,\div\,\pi r^2}\\\pause
+        \frac{V}{\pi r^2}&=h\\\pause
+        h&=\frac{V}{\pi r^2}\pause
+      \end{aligned}
+      \]
+    \end{column}
+    \begin{column}{.4\textwidth}
+      \[
+      \begin{aligned}
+        V&=\pi r^2h\\\pause
+        V\textcolor{col4}{\,\div\,\pi h}&=\pi r^2h\textcolor{col4}{\,\div\,\pi h}\\\pause
+        \frac{V}{\pi h}&=r^2\\\pause
+        r^2&=\frac{V}{\pi h}\\\pause
+        \textcolor{col4}{\sqrt{\textcolor{black}{r^2}}}&=\textcolor{col4}{\sqrt{\textcolor{black}{\frac{V}{\pi h}}}}\\\pause
+        r&=\sqrt{\frac{V}{\pi h}}&(r>0)
+      \end{aligned}
+      \]
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \begin{example}
+    Make $a$ the subject of $\quad2a-7b=23$.
+  \end{example}\pause
+  \begin{solution}[]
+    \[
+    \begin{aligned}
+      2a-7b&=23\\\pause
+      2a-7b\textcolor{col4}{\,+\,7b}&=23\textcolor{col4}{\,+\,7b}\\\pause
+      2a&=23-7b\\\pause
+      \textcolor{col4}{\frac{\textcolor{black}{2a}}{2}}&=\textcolor{col4}{\frac{\textcolor{black}{23-7b}}{2}}\\\pause
+      a&=\frac{23-7b}{2}
+    \end{aligned}
+    \]
+  \end{solution}
+\end{frame}
+
+\begin{frame}{Rearranging then substituting}
+Previously, during formula substitution, the variables were replaced by numbers and then the equation was solved. However, often we need to substitute several values for the unknowns and solve the equation for each case. In this situation it is quicker to \textbf{rearrange} the formula \textbf{before substituting}.
+\end{frame}
+
+\begin{frame}
+\small
+  \begin{example}
+    The surface area of a sphere is given by $\ \ A=4\pi r^2\ \ $ where $r$ is the sphere's radius.
+    \begin{tasks}(1)
+      \task Rearrange this formula to make $r$ the subject.
+      \task Hence find the radius to 3 significant figures when the surface area is:
+    \end{tasks}
+    \begin{tasks}(3)
+        \task[i)] 10 cm$^2$
+        \task[ii)] 20 cm$^2$
+        \task[iii)] 30 cm$^2$
+    \end{tasks}
+  \end{example}\pause
+  \begin{solution}[]
+  \vspace{-1em}
+    \begin{columns}[t]
+      \begin{column}{.22\textwidth}
+      a)\vspace{-2em}
+        \[
+        \begin{aligned}
+          A&=4\pi r^2\\\pause
+          A\textcolor{col4}{\,\div\,4\pi}&=4\pi r^2\textcolor{col4}{\,\div\,4\pi}\\\pause
+          \frac{A}{4\pi}&=r^2\\\pause
+          \textcolor{col4}{\sqrt{\textcolor{black}{\frac{A}{4\pi}}}}&=\textcolor{col4}{\sqrt{\textcolor{black}{r^2}}}\\\pause
+          r&=\sqrt{\frac{A}{4\pi}}&(r>0)\pause
+        \end{aligned}
+        \]
+      \end{column}
+      \begin{column}{.2\textwidth}
+        \vspace{-2em}
+        \[
+        \begin{aligned}
+          \text{bi) }\  r&=\sqrt{\frac{A}{4\pi}}\\\pause
+          r&=\sqrt{\frac{10}{4\pi}}\\\pause
+          r&=0.892\text{ cm}\pause
+        \end{aligned}
+        \]
+      \end{column}
+      \begin{column}{.2\textwidth}
+        \vspace{-2em}
+        \[
+        \begin{aligned}
+          \text{bii) }\  r&=\sqrt{\frac{A}{4\pi}}\\\pause
+          r&=\sqrt{\frac{20}{4\pi}}\\\pause
+          r&=1.26\text{ cm}\pause
+        \end{aligned}
+        \]
+      \end{column}
+      \begin{column}{.2\textwidth}
+        \vspace{-2em}
+        \[
+        \begin{aligned}
+          \text{biii) }\  r&=\sqrt{\frac{A}{4\pi}}\\\pause
+          r&=\sqrt{\frac{30}{4\pi}}\\\pause
+          r&=1.55\text{ cm}
+        \end{aligned}
+        \]
+      \end{column}
+    \end{columns}
+  \end{solution}
+\end{frame}
+
+\begin{frame}{Today's work}
+  \begin{itemize} 
+    \item Cambridge Ex 3E Q1-21
+  \end{itemize}
+\end{frame}
+
+\end{document}
