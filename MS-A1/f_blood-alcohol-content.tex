@@ -1,0 +1,158 @@
+\documentclass[aspectratio=169,10pt]{beamer}
+
+\input{./include/structure.tex}
+\input{./include/environments.tex}
+
+\title{Blood Alcohol Content}
+\subtitle{Standard}
+\author{MS-A1 Formulae and Equations}
+\usepackage[style=iso]{datetime2}
+\date{updated: \today
+}
+
+\begin{document}
+
+\begin{frame}{Revision}
+\textbf{General 2 2018 Q28e}\\
+    Sophie is driving at 70 km/h. She notices a branch on the road ahead and decides to apply the brakes. Her reaction time is 1.5 seconds. Her braking distance ($D$ metres) is given by $D=0.01v^2$, where $v$ is speed in km/h.
+    
+    What is Sophie's stopping distance, to the nearest metre? \hfill\textbf{3}\vspace{2em}\pause
+  \begin{solution}[]
+\pause$78$ m
+    \end{solution}
+\end{frame}
+
+\frame{\titlepage}
+
+\begin{frame}
+  \begin{outcome}
+    \textbf{Topic:}
+    \begin{itemize}
+      \item[] Blood Alcohol Content
+    \end{itemize}
+
+    \textbf{Syllabus:}
+    \begin{itemize}
+      \item calculate and interpret blood alcohol content (BAC) based on drink consumption and body weight
+      \begin{itemize}
+          \item use formulae, both in word form and algebraic form, to calculate an estimate for blood alcohol content (BAC), including $BAC_{Male}=\dfrac{10N−7.5H}{6.8M}$ and $BAC_{Female}=\dfrac{10N−7.5H}{5.5M}$ where $N$ is the number of standard drinks consumed, $H$ is the number of hours of drinking, and $M$ is the person’s weight in kilograms.
+          \item determine the number of hours required for a person to stop consuming alcohol in order to reach zero BAC, eg using the formula $\text{time}=\dfrac{BAC}{0.015}$
+          \item describe the limitations of methods estimating BAC
+      \end{itemize}
+    \end{itemize}
+
+    \textbf{Activities/Tasks:}
+    \begin{itemize}
+      \item Cambridge Ex 3F Q1-11
+    \end{itemize}
+  \end{outcome}
+\end{frame}
+
+\begin{frame}{Blood Alcohol Content}
+  \pause
+  \begin{definition}
+    Blood alcohol content (BAC) is a measure of the amount of alcohol in your blood.
+  \end{definition}\pause
+  BAC tells you the number of grams of alcohol per 100 mL of blood.\pause
+  
+  For example a BAC of 0.10 means there is 0.10 g of alcohol for every 100 mL of blood, or 1 g for every 1 L of blood.
+\end{frame}
+
+\begin{frame}{Estimating BAC}
+    BAC can be estimated using the following formulae:
+    \begin{formula}
+    $$BAC_{\text{Male}}=\frac{10N-7.5H}{6.8M}\quad\text{or}\quad BAC_{\text{Female}}=\frac{10N-7.5H}{5.5M}$$
+  \begin{columns}
+    \begin{column}{.34\textwidth}
+      Where:
+      \begin{itemize}
+        \item[$BAC$] - Blood alcohol content\pause
+        \item[$N$] - Number of standard drinks consumed\pause
+        \item[$H$] - Hours drinking\pause
+        \item[$M$] - Mass in kilograms
+      \end{itemize}
+    \end{column}
+    \begin{column}{.54\textwidth}
+      \begin{important}
+        These formulae are \textbf{not} on the reference sheet.
+        
+        You are \textbf{not} expected to remember these formulae.
+      \end{important}
+    \end{column}
+  \end{columns}
+    \end{formula}
+\end{frame}
+
+\begin{frame}{Limitations}
+    These formulae are only good for calculating \textit{estimates} of a person BAC.\pause
+
+    The formulae for estimating BAC only takes into account the number of standard drinks consumed, sex, the amount of time, and mass.\pause
+    There are other factors that influence BAC including:
+    \begin{itemize}
+        \item Fitness
+        \item Health
+        \item Liver function
+        \item Food in the stomach
+        \item Medications
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \begin{example}
+    Osman is 87 kg and has consumed 3 standard drinks in the past hour. Estimate Osman's BAC to 3 decimak places using the following formula where $N$ represents the number of standard drinks, $H$ is the number of hours drinking and $M$ is his mass in kilograms.
+    $$BAC_{\text{Male}}=\frac{10N-7.5H}{6.8M}$$
+  \end{example}\pause
+  \begin{solution}[]
+\[
+\begin{aligned}
+   BAC_{\text{Male}}&=\frac{10N-7.5H}{6.8M}\\\pause
+   &=\frac{10(3)-7.5(1)}{6.8(87)}\\\pause
+   &=0.038032...\\\pause
+   &\approx0.038
+\end{aligned}
+\]
+Osman's BAC is estimated to be 0.038.
+  \end{solution}
+\end{frame}
+
+\begin{frame}{Reaching zero BAC}
+    The number of hours required for a person to reach zero BAC after they stop consuming alcohol is given by the following formula:\pause
+    
+    \begin{formula}
+    $$\text{Time (h)}=\frac{BAC}{0.015}$$\pause
+
+      \begin{important}
+        This formula is \textbf{not} on the reference sheet.
+        
+        You are \textbf{not} expected to remember this formula.
+      \end{important}
+
+    \end{formula}
+\end{frame}
+
+\begin{frame}
+  \begin{example}
+    Fiona has a BAC of 0.027. Use the following formula to estimate the time she will need for her BAC to reach zero. Answer to the nearest minute.
+    $$\text{Time}=\frac{BAC}{0.015}$$
+  \end{example}\pause
+  \begin{solution}[]
+    \[
+      \begin{aligned}
+        \text{Time}&=\frac{BAC}{0.015}\\\pause
+        &=\frac{(0.027)}{0.015}\\\pause
+        &=1.8\\\pause
+        &\quad\text{\casio{x}}\\\pause
+        &=1^\circ48'0''\pause
+      \end{aligned}
+      \]
+      Fiona needs to wait 1 hour and 48 minutes.
+  \end{solution}
+\end{frame}
+
+\begin{frame}{Today's work}
+  \begin{itemize} 
+    \item Cambridge Ex 3F Q1-11
+  \end{itemize}
+\end{frame}
+
+\end{document}

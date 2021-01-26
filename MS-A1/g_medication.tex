@@ -1,0 +1,146 @@
+\documentclass[aspectratio=169,10pt]{beamer}
+
+\input{./include/structure.tex}
+\input{./include/environments.tex}
+
+\title{Medication}
+\subtitle{Standard}
+\author{MS-A1 Formulae and Equations}
+\usepackage[style=iso]{datetime2}
+\date{updated: \today
+}
+
+\begin{document}
+
+\begin{frame}{Revision}
+\small
+\textbf{Standard 2 2019 Q28}\\
+    The formula below is used to calculate an estimate for blood alcohol content ($BAC$) for females.
+    $$BAC_\text{Female}=\frac{10N-7.5H}{5.5M}$$
+    The number of hours required for a person to reach zero $BAC$ after they stop consuming alcohol is given by the following formula:
+    $$\text{Time}=\frac{BAC}{0.015}$$
+    A class of wine contains 1.2 standard drinks, and a glass of spirits contains 1 standard drink.
+    
+    Hanna weighs 60 kg. She consumed 3 glasses of wine and 4 glasses of spirits between 6:15 pm and 12:30 am the following day. She then stopped drinking alcohol.
+    
+    Using the given formulae, calculate the time in the morning when Hannah's $BAC$ should reach zero.
+    \hfill\textbf{4}\vspace{2em}\pause
+  \begin{solution}[]
+\pause 6:23 am
+    \end{solution}
+\end{frame}
+
+\frame{\titlepage}
+
+\begin{frame}
+  \begin{outcome}
+    \textbf{Topic:}
+    \begin{itemize}
+      \item[] Medication
+    \end{itemize}
+
+    \textbf{Syllabus:}
+    \begin{itemize}
+      \item calculate required medication dosages for children and adults from packets, given age or weight, using Fried’s, Young’s or Clark’s formula as appropriate
+      \begin{itemize}
+          \item Fried's formula: Dosage for children 1-2 years $=\frac{\text{age (in months)}\ \times\ \text{adult dosage}}{150}$
+          \item Young's formula: Dosage for children 1-12 years $=\frac{\text{age of child (in years)}\ \times\ \text{adult dosage}}{\text{age of child (in years)}\ +\ 150}$
+          \item Clark's formula: Dosage $=\frac{\text{weight in kg}\ \times\ \text{adult dosage}}{70}$
+      \end{itemize}
+    \end{itemize}
+
+    \textbf{Activities/Tasks:}
+    \begin{itemize}
+      \item Cambridge Ex 3G Q1-11
+    \end{itemize}
+  \end{outcome}
+\end{frame}
+
+\begin{frame}{Converting concentrations}
+    A concentration is a rate comparing a mass (g, mg, etc.) with a volume (L, mL, etc.). We need to consider both when converting a concentration from one unit to another.
+\end{frame}
+
+\begin{frame}
+\begin{example}
+  The concentration of a milk analgesic is given as 80 mg per 50 mL. What is in g/mL?
+\end{example}\pause
+\begin{solution}
+  \[
+  \begin{aligned}
+     80\text{ mg}/50\text{ mL}\pause&=\frac{80\text{ mg}}{50\text{ mL}}\\\pause
+     1.6\text{ mg/mL}\\\pause
+     1.6\div1000\text{ g/mL}\\\pause
+     0.0016\text{ g/mL}
+  \end{aligned}
+  \]
+\end{solution}
+\end{frame}
+
+\begin{frame}{Calculating dosages}
+Often when calculating dosages you will be prescribed an amount in milligrams (mg) and need to calculate how much of a liquid that need to be taken. In these cases you can use the following:
+\begin{formula}
+    $$\text{volume required}=\frac{\text{strength required}}{\text{strength of stock}}\times\text{volume of stock}$$
+  Where your \textit{stock} is the medication you're given.\vspace{1em}
+  \begin{important}
+    This formula is \textbf{not} on the reference sheet.
+  \end{important}
+\end{formula}
+\end{frame}
+
+\begin{frame}
+  \begin{example}
+   A patient is prescribed 1000 mg of a mild painkiller. The medication available contains 100 mg in 5 mL. How much medication should be given to the patient?
+  \end{example}\pause
+  \begin{solution}[]
+  \[
+  \begin{aligned}
+    \text{volume required}&=\frac{\text{strength required}}{\text{strength of stock}}\times\text{volume of stock}\\\pause
+    &=\frac{(1000\text{ mg})}{(100\text{ mg})}\times(5\text{ mL})\\\pause
+    &=50\text{ mL}
+  \end{aligned}
+  \]
+  \end{solution}
+\end{frame}
+
+\begin{frame}{Children and infants}
+\small
+There are three formulae used for children and infants:
+\begin{formula}
+          \begin{itemize}
+          \item Fried's formula: Dosage for children 1-2 years $=\dfrac{\text{age (months)}\ \times\ \text{adult dosage}}{150}$
+          \item Young's formula: Dosage for children 1-12 years $=\dfrac{\text{age of child (years)}\ \times\ \text{adult dosage}}{\text{age of child (years)}\ +\ 150}$
+          \item Clark's formula: Dosage $=\dfrac{\text{weight (kg)}\ \times\ \text{adult dosage}}{70}$
+      \end{itemize}
+  \begin{important}
+    This formula is \textbf{not} on the reference sheet.
+    
+    You are \textbf{not} expected to remember this formula.
+  \end{important}
+\end{formula}
+\end{frame}
+
+\begin{frame}
+  \begin{example}
+    Jessica is 6 months old. Use Fried's formula to find the required infant dose if the adult dost is 20 mL.
+    
+    $$\text{Dosage}=\dfrac{\text{age (months)}\ \times\ \text{adult dosage}}{150}$$
+  \end{example}\pause
+  \begin{solution}[]
+    \[
+      \begin{aligned}
+        \text{Dosage}&=\frac{\text{age (months)}\ \times\ \text{adult dosage}}{150}\\\pause
+        &=\frac{(6)\times(20)}{(150)}\\\pause
+        &=\frac{120}{150}\\\pause
+        &=0.8\text{ mL}
+      \end{aligned}
+      \]
+  \end{solution}
+\end{frame}
+
+\begin{frame}{Today's work}
+  \begin{itemize} 
+    \item Cambridge Ex 3G Q1-11
+  \end{itemize}
+\end{frame}
+
+\end{document}
